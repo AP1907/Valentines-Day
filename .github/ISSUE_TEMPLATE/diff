@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Happy Valentine’s Day ❤️</title>
+<style>
+body{
+    background: linear-gradient(45deg,#ff4b7d,#ff85a2);
+    font-family: Arial;
+    text-align:center;
+    color:white;
+}
+.box{
+    background: rgba(0,0,0,0.3);
+    width:350px;
+    margin:100px auto;
+    padding:30px;
+    border-radius:20px;
+}
+button{
+    background:white;
+    color:#ff4b7d;
+    border:none;
+    padding:12px 25px;
+    font-size:18px;
+    border-radius:20px;
+    cursor:pointer;
+}
+</style>
+</head>
+
+<body>
+<div class="box">
+<h1>Happy Valentine’s Day 💕</h1>
+<p>Dear Baba,</p>
+<p>You make my life beautiful.  
+Every moment with you is my favorite.</p>
+
+<button onclick="msg()">Click Me 💌</button>
+<p id="m"></p>
+</div>
+
+<script>
+function msg(){
+document.getElementById("m").innerHTML=
+"I love you forever ❤️<br>– Anshuman";
+}
+</script>
+</body>
+</html>
